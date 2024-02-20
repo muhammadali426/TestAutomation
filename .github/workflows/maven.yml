@@ -1,0 +1,51 @@
+name: Java CI with Maven and Cucumber Reports
+
+on:
+  push:
+    branches:
+      - TestAutomation
+  pull_request:
+    branches:
+      - TestAutomation
+
+jobs:
+  test:
+
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      
+      - name: Set up JDK 21
+        uses: actions/setup-java@v2
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+
+      - name: Cache Maven dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.m2/repository
+          key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
+          restore-keys: |
+            ${{ runner.os }}-maven-
+
+      - name: Build and test with Maven
+        run: mvn clean verify
+
+#      - name: Install cucumber-html-reporter
+#        run: npm install -g cucumber-html-reporter
+#
+#      - name: Generate Cucumber Reports
+#        run: |
+#          mkdir reports
+#          cucumber-json-merge src/test/resources/cucumber-reports/*.json > reports/cucumber-report.json
+#          cucumber-html-reporter --json reports/cucumber-report.json --output reports/cucumber-report.html
+#
+#      - name: Publish Cucumber Reports
+#        uses: actions/upload-artifact@v2
+#        with:
+#          name: cucumber-reports
+#          path: reports/cucumber-report.html
+# Report For Updated

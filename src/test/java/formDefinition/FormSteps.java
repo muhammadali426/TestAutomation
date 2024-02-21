@@ -120,169 +120,169 @@ public class FormSteps extends BaseClass {
 		form.clickOnNextButton();
 		
 	}
+//
+//	@When("Verify next button status of second steper for First Name Last Name and Phone Number")
+//	public void verify_email_next_button_status_for_second_steper() throws InterruptedException {
+//		form = new FormPOM(driver);
+//		form.getsecondNextbuttonstatus();
+//
+//	}
+//
+//	@When("Verify Required messages for First Name Last Name and Phone Number")
+//	public void verify_name_phone_error() throws InterruptedException {
+//		form = new FormPOM(driver);
+//		form.generateReqErrorForNameAndPhone();
+//		Thread.sleep(2000);
+//		form.errorPresenceForSecondStepper();
+//		//form.reqCTA.click();
+//		Thread.sleep(2000);
+//	}
+//	@When("Verify single space and multiple space for First Name Last Name and Phone fields")
+//	public void fill_First_And_Last_Name_with_Blank_Spaces() throws InterruptedException {
+//		form = new FormPOM(driver);
+//		form.fillFirstAndLastNameWithBlankSpace();
+//	}
+//
+//	@When("Verify First Name Last Name Phone fields with Special Characters")
+//	public void fill_Fields_with_Special_Characters() throws InterruptedException {
+//		form = new FormPOM(driver);
+//		form.fillFieldsWithSpecialCharacters();
+//	}
+//
+//	@When("Verify First Name Last Name phone fields with Numeric Characters")
+//	public void fill_First_And_Last_Name_with_Numeric_Characters() throws InterruptedException {
+//		form = new FormPOM(driver);
+//		form.fillFirstAndLastNameWithNumericCharacters();
+//	}
+//
+//	@When("Verify First Name Last Name Phone fields with emojis")
+//	public void fill_First_And_Last_phone_with_emojis() throws InterruptedException {
+//		form = new FormPOM(driver);
+//		form.fillFieldsWithEmojis();
+//	}
+//
+//	@When("Verify First Name Last Name with emojis and valid phone number")
+//	public void fill_Emojis_with_valid_phone() throws InterruptedException {
+//		form = new FormPOM(driver);
+//		form.fillFieldsWithEmojisAndValidPhone();
+//	}
+//
+//	@When("Verify First Name Last Name with emojis and Special Characters and valid phone number")
+//	public void fill_Emojis_with_Special_characters_valid_phone() throws InterruptedException {
+//		form = new FormPOM(driver);
+//		form.fillFieldsWithEmojisSpecialCharactersAndValidPhone();
+//	}
+//
+//	@When("Navigate to third Steper")
+//	public void navigateToThirdSteper() throws InterruptedException {
+//		form = new FormPOM(driver);
+//		form.navigateToThirdSteper();
+//	}
 	
-	@When("Verify next button status of second steper for First Name Last Name and Phone Number")
-	public void verify_email_next_button_status_for_second_steper() throws InterruptedException {
-		form = new FormPOM(driver);
-		form.getsecondNextbuttonstatus();
-		
-	}
+//	@When("Verify submit button status of Third steper With All empty Fields")
+//	public void verify_submit_button_status_on_third_steper() throws InterruptedException {
+//		form = new FormPOM(driver);
+//		form.getSubmitbuttonStatusOnThirdSteper();
+//
+//	}
+//
+//	@When("Verify single space and multiple space for Company and No: of Employees fields")
+//	public void fill_company_And_NOE_with_Blank_Spaces() throws InterruptedException {
+//		form = new FormPOM(driver);
+//		form.fillComAndNOEWithSpaces();
+//	}
+//
+//	@When("Verify Required messages for Company and No: of Employees")
+//	public void verify_company_NOE_error() throws InterruptedException {
+//		form = new FormPOM(driver);
+//		form.generateReqErrorForCompanyAndNOE();
+//		Thread.sleep(2000);
+//		form.errorPresenceForThirdStepper();
+//		//form.reqCTA.click();
+//		Thread.sleep(2000);
+//	}
+//
+//
+//	@When("Verify Compnay and NOE with Special Characters")
+//	public void fill_Company_NOE_with_Special_Characters() throws InterruptedException {
+//		form = new FormPOM(driver);
+//		form.fillCompanyAndNOEWithSpecialCharacters();
+//	}
+//	@When("Verify Compnay and NOE with Numeric Characters")
+//	public void fill_Company_NOE_with_Numeric_Characters() throws InterruptedException {
+//		form = new FormPOM(driver);
+//		form.fillCompanyAndNOEWithNumericCharacters();
+//	}
 	
-	@When("Verify Required messages for First Name Last Name and Phone Number")
-	public void verify_name_phone_error() throws InterruptedException {
-		form = new FormPOM(driver);
-		form.generateReqErrorForNameAndPhone();
-		Thread.sleep(2000);
-		form.errorPresenceForSecondStepper();
-		//form.reqCTA.click();
-		Thread.sleep(2000);
-	}
-	@When("Verify single space and multiple space for First Name Last Name and Phone fields")
-	public void fill_First_And_Last_Name_with_Blank_Spaces() throws InterruptedException {
-		form = new FormPOM(driver);
-		form.fillFirstAndLastNameWithBlankSpace();
-	}
-	
-	@When("Verify First Name Last Name Phone fields with Special Characters")
-	public void fill_Fields_with_Special_Characters() throws InterruptedException {
-		form = new FormPOM(driver);
-		form.fillFieldsWithSpecialCharacters();
-	}
-	
-	@When("Verify First Name Last Name phone fields with Numeric Characters")
-	public void fill_First_And_Last_Name_with_Numeric_Characters() throws InterruptedException {
-		form = new FormPOM(driver);
-		form.fillFirstAndLastNameWithNumericCharacters();
-	}
-	
-	@When("Verify First Name Last Name Phone fields with emojis")
-	public void fill_First_And_Last_phone_with_emojis() throws InterruptedException {
-		form = new FormPOM(driver);
-		form.fillFieldsWithEmojis();
-	}
-	
-	@When("Verify First Name Last Name with emojis and valid phone number")
-	public void fill_Emojis_with_valid_phone() throws InterruptedException {
-		form = new FormPOM(driver);
-		form.fillFieldsWithEmojisAndValidPhone();
-	}
-	
-	@When("Verify First Name Last Name with emojis and Special Characters and valid phone number")
-	public void fill_Emojis_with_Special_characters_valid_phone() throws InterruptedException {
-		form = new FormPOM(driver);
-		form.fillFieldsWithEmojisSpecialCharactersAndValidPhone();
-	}
-	
-	@When("Navigate to third Steper")
-	public void navigateToThirdSteper() throws InterruptedException {
-		form = new FormPOM(driver);
-		form.navigateToThirdSteper();
-	}
-	
-	@When("Verify submit button status of Third steper With All empty Fields")
-	public void verify_submit_button_status_on_third_steper() throws InterruptedException {
-		form = new FormPOM(driver);
-		form.getSubmitbuttonStatusOnThirdSteper();
-		
-	}
-	
-	@When("Verify single space and multiple space for Company and No: of Employees fields")
-	public void fill_company_And_NOE_with_Blank_Spaces() throws InterruptedException {
-		form = new FormPOM(driver);
-		form.fillComAndNOEWithSpaces();
-	}
-	
-	@When("Verify Required messages for Company and No: of Employees")
-	public void verify_company_NOE_error() throws InterruptedException {
-		form = new FormPOM(driver);
-		form.generateReqErrorForCompanyAndNOE();
-		Thread.sleep(2000);
-		form.errorPresenceForThirdStepper();
-		//form.reqCTA.click();
-		Thread.sleep(2000);
-	}
+//	@When("Verify Company and NOE fields with emojis")
+//	public void fill_Company_And_NOE_with_emojis() throws InterruptedException {
+//		form = new FormPOM(driver);
+//		form.fillCompanyAndNOEFieldsWithEmojis();
+//	}
+//
+//	@When("Verify Company and NOE with emojis and Special Characters")
+//	public void fill_Com_NOE_with_Emojis_And_Special_characters() throws InterruptedException {
+//		form = new FormPOM(driver);
+//		form.fillComAndNOEWithEmojisSpecialCharacters();
+//	}
+//
+//	//-------
+//	@When("Verify Company with Special Characters and Other Form With Valid Data")
+//	public void fill_Com_with_Emojis_And_Special_characters_with_All_Valid_Data() throws InterruptedException {
+//		form = new FormPOM(driver);
+//		form.fillComWithEmojisSpecialCharactersWithAllOtherValidData();
+//		Thread.sleep(3000);
+//	}
 	
 	
-	@When("Verify Compnay and NOE with Special Characters")
-	public void fill_Company_NOE_with_Special_Characters() throws InterruptedException {
-		form = new FormPOM(driver);
-		form.fillCompanyAndNOEWithSpecialCharacters();
-	}
-	@When("Verify Compnay and NOE with Numeric Characters")
-	public void fill_Company_NOE_with_Numeric_Characters() throws InterruptedException {
-		form = new FormPOM(driver);
-		form.fillCompanyAndNOEWithNumericCharacters();
-	}
-	
-	@When("Verify Company and NOE fields with emojis")
-	public void fill_Company_And_NOE_with_emojis() throws InterruptedException {
-		form = new FormPOM(driver);
-		form.fillCompanyAndNOEFieldsWithEmojis();
-	}
-	
-	@When("Verify Company and NOE with emojis and Special Characters")
-	public void fill_Com_NOE_with_Emojis_And_Special_characters() throws InterruptedException {
-		form = new FormPOM(driver);
-		form.fillComAndNOEWithEmojisSpecialCharacters();
-	}
-	
-	//-------
-	@When("Verify Company with Special Characters and Other Form With Valid Data")
-	public void fill_Com_with_Emojis_And_Special_characters_with_All_Valid_Data() throws InterruptedException {
-		form = new FormPOM(driver);
-		form.fillComWithEmojisSpecialCharactersWithAllOtherValidData();
-		Thread.sleep(3000);
-	}
-	
-	
-	@When("Verify submit button status of Third steper For Country and Primary Interest with valid Data in Text Fields")
-	public void verify_submit_button_status_on_third_steper_for_PI_Country() throws InterruptedException {
-		form = new FormPOM(driver);
-		form.getSubmitbuttonStatusOnThirdSteper();
-		
-	}
-	
-	@When("Verify Selection of State Dropdown when Selcet Country as United Stated")
-	public void verify_dependent_dropDown() throws InterruptedException {
-		form = new FormPOM(driver);
-		form.FillCompanyAndPI();
-		Thread.sleep(3000);
-		form.selectReqCountry();
-		Thread.sleep(3000);
-		form.selectState();
-		//Thread.sleep(3000);
-		//form.scrollTilState();
-		Thread.sleep(3000);
-		form.selectInterest();
-		//Thread.sleep(3000);
-		
-	}
-	
-	@When("Verify the Count of Country")
-	public void verify_County_Count_() throws InterruptedException {
-		form = new FormPOM(driver);
-		form.getCountryCount();
-		
-	}
-	
-	@When("Verify the Count of State")
-	public void verify_State_Count_() throws InterruptedException {
-		form = new FormPOM(driver);
-		form.getStateCount();
-		
-	}
-	
-	@When("Verify the Count of Primary Interest")
-	public void verify_PI_Count_() throws InterruptedException {
-		form = new FormPOM(driver);
-		form.getPICount();		
-	}
-	
-	@When("Submit the RAQ Form")
-	public void submitReqForm() throws InterruptedException {
-		form = new FormPOM(driver);
-		form.submitreqForm();		
-	}
+//	@When("Verify submit button status of Third steper For Country and Primary Interest with valid Data in Text Fields")
+//	public void verify_submit_button_status_on_third_steper_for_PI_Country() throws InterruptedException {
+//		form = new FormPOM(driver);
+//		form.getSubmitbuttonStatusOnThirdSteper();
+//
+//	}
+//
+//	@When("Verify Selection of State Dropdown when Selcet Country as United Stated")
+//	public void verify_dependent_dropDown() throws InterruptedException {
+//		form = new FormPOM(driver);
+//		form.FillCompanyAndPI();
+//		Thread.sleep(3000);
+//		form.selectReqCountry();
+//		Thread.sleep(3000);
+//		form.selectState();
+//		//Thread.sleep(3000);
+//		//form.scrollTilState();
+//		Thread.sleep(3000);
+//		form.selectInterest();
+//		//Thread.sleep(3000);
+//
+//	}
+//
+//	@When("Verify the Count of Country")
+//	public void verify_County_Count_() throws InterruptedException {
+//		form = new FormPOM(driver);
+//		form.getCountryCount();
+//
+//	}
+//
+//	@When("Verify the Count of State")
+//	public void verify_State_Count_() throws InterruptedException {
+//		form = new FormPOM(driver);
+//		form.getStateCount();
+//
+//	}
+//
+//	@When("Verify the Count of Primary Interest")
+//	public void verify_PI_Count_() throws InterruptedException {
+//		form = new FormPOM(driver);
+//		form.getPICount();
+//	}
+//
+//	@When("Submit the RAQ Form")
+//	public void submitReqForm() throws InterruptedException {
+//		form = new FormPOM(driver);
+//		form.submitreqForm();
+//	}
 	
 //	@When("Verify the State DropDown should not empty")
 //	public void verify_State_Count_() throws InterruptedException {

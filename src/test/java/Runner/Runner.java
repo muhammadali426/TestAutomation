@@ -22,7 +22,7 @@ monochrome = true,
 //plugin = {"pretty" , "html: test-output"},
 
 plugin = {"pretty", "json:target/cucumber-reports/cucumber.json",
-		"html:target/cucumber-reports/cucumber.html", }
+		"html:target/cucumber-reports/index.html", }
 
 //		plugin = {"pretty", "json:report/cucumber.json",
 //				"html:report/cucumber.html", }

@@ -21,11 +21,12 @@ jobs:
         uses: actions/setup-java@v2
         with:
           java-version: '21'
+          distribution: 'temurin'
 
       - name: Cache Maven dependencies
         uses: actions/cache@v2
         with:
-          path: C:\Users\runneradmin\.m2\repository
+          path: ~/.m2/repository
           key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
           restore-keys: |
             ${{ runner.os }}-maven-

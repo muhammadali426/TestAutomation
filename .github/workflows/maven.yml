@@ -1,14 +1,14 @@
 name: Java CI with Maven and Cucumber Reports
 
 on:
-  schedule:
-    - cron: '28 17 * * *'  # Run every Monday to Friday at 12:30 PM UTC
   push:
     branches:
       - main
   pull_request:
     branches:
       - main
+  schedule:
+    - cron: '55 17 * * *'  # Schedule the workflow to run at 10:55 PM in Pakistani Standard Time (5:55 PM UTC)    
 
 jobs:
   test:

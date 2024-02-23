@@ -2,7 +2,7 @@ name: Java CI with Maven and Cucumber Reports
 
 on:
   schedule:
-    - cron: '50 21 * * * *'  # Run every Monday to Friday at 12:30 PM UTC
+    - cron: '52 21 * * *'  # Run every Monday to Friday at 12:30 PM UTC
   push:
     branches:
       - main

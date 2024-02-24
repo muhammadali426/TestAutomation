@@ -49,3 +49,11 @@ jobs:
         with:
           name: cucumber-reports
           path: target/cucumber-reports
+
+
+      - name : Notify if found any error
+        uses: mainmatter/continue-on-error-comment@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          outcome: ${{ steps.build.outcome }}
+          test-id: Error code ${{ matrix.code }}    
